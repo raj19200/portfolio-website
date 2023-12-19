@@ -1,6 +1,18 @@
-import "./App.css";
+import "./styles/GlobalStyle.css";
+import AppLayout from "./ui/AppLayout";
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route element={<AppLayout />}>
+    //       <Route path="/" exact component={Home} />
+    //       <Route path="/about" component={About} />
+    //       <Route path="/contact" component={Contact} />
+    //     </Route>
+    //   </Routes>
+    // </BrowserRouter>
+    <AppLayout />
+  );
 }
 
 export default App;
