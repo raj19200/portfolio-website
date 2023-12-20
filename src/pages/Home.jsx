@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div>
+    <div className="pt-14">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor voluptas
         minus totam illo nulla natus voluptatibus asperiores ut. Officia aliquid
