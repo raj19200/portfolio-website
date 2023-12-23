@@ -1,12 +1,11 @@
+import HomeDetails from "../ui/HomeDetails";
+import HomeImage from "../ui/HomeImage";
+
 function Home() {
   return (
-    <div className="pt-14">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor voluptas
-        minus totam illo nulla natus voluptatibus asperiores ut. Officia aliquid
-        iure rerum soluta accusamus iste sequi expedita facilis blanditiis
-        dolores.{" "}
-      </p>
+    <div className="pt-14 flex flex-col lg:flex-row justify-between pl-32 pr-32">
+      <HomeDetails />
+      <HomeImage />
     </div>
   );
 }

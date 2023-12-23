@@ -12,27 +12,24 @@ function AppLayout() {
     <div className="dark-mode">
       <div className="container px-10 py-3">
         <NavBar />
-
-        <div>
-          <Element id="home">
-            <Home />
-          </Element>
-          <Element id="about">
-            <About />
-          </Element>
-          <Element id="experience">
-            <Experience />
-          </Element>
-          <Element id="skills">
-            <Skills />
-          </Element>
-          <Element id="projects">
-            <Projects />
-          </Element>
-          <Element id="contact">
-            <Contact />
-          </Element>
-        </div>
+        <Element default id="home">
+          <Home />
+        </Element>
+        <Element id="about">
+          <About />
+        </Element>
+        <Element id="experience">
+          <Experience />
+        </Element>
+        <Element id="skills">
+          <Skills />
+        </Element>
+        <Element id="projects">
+          <Projects />
+        </Element>
+        <Element id="contact">
+          <Contact />
+        </Element>
       </div>
     </div>
   );

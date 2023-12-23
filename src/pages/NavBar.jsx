@@ -1,5 +1,6 @@
-import Logo from "../utils/Logo";
-import NavList from "../utils/NavList";
+import Logo from "../ui/Logo";
+import NavList from "../ui/NavList";
+
 
 function NavBar() {
   return (

@@ -12,7 +12,7 @@ function Logo() {
     >
       <img
         src="../src/data/images/LogoRaj.svg"
-        className="h-8"
+        className="h-10"
         alt="Flowbite Logo"
       />
     </Link>
