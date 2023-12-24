@@ -9,8 +9,8 @@ import Skills from "../pages/Skills";
 import "../styles/GlobalStyle.css";
 function AppLayout() {
   return (
-    <div className="dark-mode">
-      <div className="container px-10 py-3">
+    <div className="container">
+      <div className="dark-mode px-10 py-3">
         <NavBar />
         <Element default id="home">
           <Home />

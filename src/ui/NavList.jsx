@@ -1,15 +1,20 @@
 import LinkTab from "./LinkTab";
 import Pdf from "../data/pdf/Raj_Shah_Resume.pdf";
+import { useState } from "react";
 function NavList() {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
   return (
     <>
       <button
-        data-collapse-toggle="navbar-default"
+        onClick={toggleMenu}
         type="button"
         className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-fuchsia-50 rounded-lg lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="navbar-default"
-        aria-expanded="false"
-        onClick={() => console.log("Click")}
+        aria-expanded={isMenuOpen ? "true" : "false"}
       >
         <span className="sr-only">Open main menu</span>
         <svg
@@ -24,10 +29,12 @@ function NavList() {
       </button>
 
       <div
-        className="hidden w-full lg:block lg:w-auto"
-        id="navbar-default space-x-14"
+        className={`${
+          isMenuOpen ? "block" : "hidden"
+        } w-full lg:block lg:w-auto space-x-14`}
+        id="navbar-default "
       >
-        <ul className="font-medium flex  items-center flex-col p-4 md:p-0 mt-4 border md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+        <ul className="font-medium flex  items-center flex-col p-4 lg:p-0 mt-4 border rounded  lg:flex-row lg:space-x-8  lg:mt-0 lg:border-0">
           <LinkTab tabName="home" tabTitle="Home" />
           <LinkTab tabName="about" tabTitle="About" />
           <LinkTab tabName="experience" tabTitle="Experience" />
