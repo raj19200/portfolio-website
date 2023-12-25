@@ -1,15 +1,16 @@
+import AboutDetails from "../ui/AboutDetails";
+import AboutImage from "../ui/AboutImage";
+
 function About() {
   return (
-    <div>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
+    <div className="mt-28 lg:mt-36 pl-24 pr-24 lg:pl-32 lg:pr-32 ">
+      <h1 className=" text-websiteColor underline underline-offset-[16px] text-4xl	font-medium">
+        About Me
+      </h1>
+      <div className="pt-14 flex items-center flex-col lg:flex-row justify-between ">
+        <AboutDetails />
+        <AboutImage />
+      </div>
     </div>
   );
 }

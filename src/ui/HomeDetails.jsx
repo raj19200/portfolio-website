@@ -21,13 +21,13 @@ function HomeDetails() {
     };
   }, []);
   return (
-    <div className="flex flex-col space-y-5">
+    <div className="flex flex-col w-full lg:w-2/4 leading-loose space-y-5 z-10">
       <p className=" text-base lg:text-xl ">Hi, There!</p>
       <h1 className="text-lg lg:text-5xl">
         I am <span className="text-websiteColor" ref={el} />
       </h1>
       <h4 className="text-sm lg:text-lg font-thin">
-        A passionate Web Developer with around 3 years of <br /> experience in
+        A passionate Web Developer with around 3 years of experience in
         designing and developing web applications.
       </h4>
       <Link

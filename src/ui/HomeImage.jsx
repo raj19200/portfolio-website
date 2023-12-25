@@ -1,12 +1,37 @@
+import { useEffect, useState } from "react";
+
 function HomeImage() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  let isSmallOrMediumScreen = windowWidth > 1024;
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    // Add event listener for window resize
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
-    <div>
-      <img
-        src="../src/data/images/hero-portrait.svg"
-        className="h-40 w-40 md:h-50 md:w-[8rem] lg:h-80 lg:w-[22rem]"
-        alt="Flowbite Logo"
-      />
-    </div>
+    <>
+      {isSmallOrMediumScreen ? (
+        <img
+          src="../src/data/images/hero-portrait.svg"
+          className="h-40 w-40 md:h-50 md:w-[8rem] lg:h-80 lg:w-[22rem]"
+          alt="Flowbite Logo"
+        />
+      ) : (
+        <img
+          src="../src/data/images/hero-portrait.svg"
+          className="h-80 w-[22rem] absolute filter brightness-[.3]"
+          alt="Flowbite Logo"
+        />
+      )}
+    </>
   );
 }
 
