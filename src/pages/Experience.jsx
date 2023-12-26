@@ -1,141 +1,18 @@
+import { data } from "../data/experience/ExperienceInformation";
+import ExperienceDetails from "../ui/ExperienceDetails";
+
+/* eslint-disable react/no-unescaped-entities */
 function Experience() {
   return (
-    <div>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
-      <p>
-        ---------------------------------------------------------------------
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam hic
-        enim saepe suscipit iste vel distinctio dicta magnam dolorum in
-        necessitatibus aut cupiditate, illum dolore? Nesciunt quidem neque
-        ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        fuga odio cum iste, enim doloremque aspernatur voluptas dolore dolor
-        non, aut commodi eiu
-      </p>
+    <div className="mt-28 lg:mt-36 pl-24 pr-24 lg:pl-32 lg:pr-32 ">
+      <h1 className=" text-websiteColor underline underline-offset-[16px] text-4xl	font-medium">
+        Where I've Worked
+      </h1>
+      <div className="mt-14 flex flex-col justify-between border-l-[1px] border-solid ">
+        {data.map((company) => (
+          <ExperienceDetails company={company} key={company.companyName} />
+        ))}
+      </div>
     </div>
   );
 }

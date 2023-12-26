@@ -40,3 +40,17 @@
   inherits: true;
   initial-value: 0turn;
 }
+.company {
+  position: relative;
+  margin-left: 6%;
+  padding: 17px 0;
+}
+.company::before {
+  position: absolute;
+  content: "";
+  top: 30px;
+  left: calc(-6% - 3px);
+  width: 3%;
+  height: 1px;
+  background: #8892b0;
+}

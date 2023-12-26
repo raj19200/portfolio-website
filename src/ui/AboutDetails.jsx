@@ -2,7 +2,7 @@
 function AboutDetails() {
   return (
     <div className="flex flex-col w-full lg:w-2/4 leading-loose space-y-5">
-      <p>Hi, I am Raj, a Front End developer.</p>
+      <p>Hi, I am Raj, a Frontend Web Developer.</p>
       <p>
         I am responsible for building beautiful, elegant, and functional
         <span className="text-websiteColor"> web applications</span> , with
