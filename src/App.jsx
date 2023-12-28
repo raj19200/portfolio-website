@@ -1,18 +1,8 @@
 import "./styles/GlobalStyle.css";
+import "./styles/projectStyle.css";
 import AppLayout from "./ui/AppLayout";
 function App() {
-  return (
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route element={<AppLayout />}>
-    //       <Route path="/" exact component={Home} />
-    //       <Route path="/about" component={About} />
-    //       <Route path="/contact" component={Contact} />
-    //     </Route>
-    //   </Routes>
-    // </BrowserRouter>
-    <AppLayout />
-  );
+  return <AppLayout />;
 }
 
 export default App;
