@@ -12,7 +12,7 @@
 }
 
 .projectContainer .card .face {
-  width: 300px;
+  width: 450px;
   height: 200px;
   transition: 0.4s;
 }
@@ -59,7 +59,7 @@
 
 .projectContainer .card .face.face2 {
   position: relative;
-  background: white;
+  background: rgba(16, 38, 71, 0.75);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,7 +79,7 @@ a {
   font-size: 10pt;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: white;
 }
 
 /* .projectContainer .card .face.face2 .content a {

@@ -4,12 +4,10 @@ function ProjectCard({
   project: { projectTitle, projectDesc, githubLink, liveSite },
 }) {
   const openGitHubPage = () => {
-    const githubUrl = { githubLink };
-    window.open(githubUrl, "_blank");
+    window.open(githubLink, "_blank");
   };
   const openLiveApp = () => {
-    const liveUrl = { liveSite };
-    window.open(liveUrl, "_blank");
+    window.open(liveSite, "_blank");
   };
   return (
     <div className="card">
@@ -23,24 +21,28 @@ function ProjectCard({
         <div className="content m-4">
           <p>{projectDesc}</p>
           <div className="flex pt-3 space-x-4">
-            <FiGithub
-              onClick={openGitHubPage}
-              style={{
-                cursor: "pointer",
-                color: "#333",
-                fontSize: "24px",
-                strokeWidth: 2,
-              }}
-            />
-            <FiExternalLink
-              onClick={openLiveApp}
-              style={{
-                cursor: "pointer",
-                color: "#333",
-                fontSize: "24px",
-                strokeWidth: 2,
-              }}
-            />
+            {githubLink.length ? (
+              <FiGithub
+                onClick={openGitHubPage}
+                style={{
+                  cursor: "pointer",
+                  color: " #ffb633",
+                  fontSize: "24px",
+                  strokeWidth: 2,
+                }}
+              />
+            ) : null}
+            {liveSite ? (
+              <FiExternalLink
+                onClick={openLiveApp}
+                style={{
+                  cursor: "pointer",
+                  color: " #ffb633",
+                  fontSize: "24px",
+                  strokeWidth: 2,
+                }}
+              />
+            ) : null}
           </div>
         </div>
       </div>

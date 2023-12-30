@@ -18,7 +18,7 @@ export const projectData = [
     projectDesc:
       "I created this website to book hotel suites and store data in the Supabase database. Have a look at the website by clicking the link below.",
     githubLink: "https://github.com/raj19200/hotel-booking",
-    liveSite: "https://hotel-booking-practice.netlify.app/login",
+    liveSite: "https://hotel-booking-practice.netlify.app",
   },
   {
     projectTitle: "WorldWise",
