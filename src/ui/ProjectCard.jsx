@@ -13,7 +13,6 @@ function ProjectCard({
     <div className="card">
       <div className="face face1">
         <div className="content">
-          <i className="fab fa-windows"></i>
           <h3>{projectTitle}</h3>
         </div>
       </div>
@@ -51,7 +50,3 @@ function ProjectCard({
 }
 
 export default ProjectCard;
-
-// service_2tmy15k
-// My Default Template
-// template_krw4jpk

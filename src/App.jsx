@@ -1,5 +1,6 @@
 import "./styles/GlobalStyle.css";
 import "./styles/projectStyle.css";
+import "./styles/SocialIcons.css";
 import "./styles/contact.css";
 import AppLayout from "./ui/AppLayout";
 function App() {
