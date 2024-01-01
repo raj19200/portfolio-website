@@ -7,6 +7,7 @@ import NavBar from "../pages/NavBar";
 import Projects from "../pages/Projects";
 import Skills from "../pages/Skills";
 import "../styles/GlobalStyle.css";
+import Footer from "../pages/Footer";
 function AppLayout() {
   return (
     <div className="container">
@@ -30,6 +31,7 @@ function AppLayout() {
         <Element id="contact">
           <Contact />
         </Element>
+        <Footer />
       </div>
     </div>
   );
