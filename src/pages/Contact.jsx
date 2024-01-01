@@ -7,7 +7,7 @@ function Contact() {
       <h1 className=" text-websiteColor underline underline-offset-[16px] text-4xl	font-medium">
         Get In Touch
       </h1>
-      <div className="pt-14 flex items-center flex-col lg:flex-row justify-between ">
+      <div className="pt-14 flex flex-col lg:flex-row justify-start">
         <ContactText />
         <ContactForm />
       </div>
