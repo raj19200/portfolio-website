@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import emailjs from "@emailjs/browser";
+import { RiMailSendLine } from "react-icons/ri";
 function ContactForm() {
   const form = useRef();
   const sendEmail = (e) => {
@@ -58,9 +59,10 @@ function ContactForm() {
       <div>
         <button
           target="_blank"
-          className="text-websiteColor hover:text-textColor border border-websiteColor hover:bg-websiteColor focus:ring-4 focus:outline-none focus:ring-websiteColor font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 "
+          className=" flex items-center justify- space-x-2  text-websiteColor hover:text-textColor border border-websiteColor hover:bg-websiteColor focus:ring-4 focus:outline-none focus:ring-websiteColor font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 "
         >
           <input type="submit" value="Send" />
+          <RiMailSendLine />
         </button>
         <Toaster
           position="top-right"

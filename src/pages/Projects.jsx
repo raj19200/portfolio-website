@@ -1,10 +1,18 @@
 import { projectData } from "../data/projects/project";
 import ProjectCard from "../ui/ProjectCard";
-
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+import Aos from "aos";
 function Projects() {
+  useEffect(function () {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className="pl-24 pr-24 lg:pl-32 lg:pr-32 ">
-      <h1 className=" text-websiteColor underline underline-offset-[16px] text-4xl	font-medium">
+      <h1
+        className=" text-websiteColor underline underline-offset-[16px] text-4xl	font-medium"
+        data-aos="fade-up"
+      >
         Projects
       </h1>
       <div className="flex justify-center items-center">
