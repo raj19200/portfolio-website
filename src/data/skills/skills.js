@@ -1,82 +1,82 @@
 export const skillData = [
   {
-    skillLogo: "images/react.svg",
+    skillLogo: "react.svg",
     skillName: "React Js",
   },
   {
-    skillLogo: "images/typescript.svg",
+    skillLogo: "typescript.svg",
     skillName: "Typescript",
   },
   {
-    skillLogo: "images/javascript.svg",
+    skillLogo: "javascript.svg",
     skillName: "Javascript",
   },
   {
-    skillLogo: "images/redux.svg",
+    skillLogo: "redux.svg",
     skillName: "Redux",
   },
   {
-    skillLogo: "images/react-query-icon.svg",
+    skillLogo: "react-query-icon.svg",
     skillName: "React Query",
   },
   {
-    skillLogo: "images/git.svg",
+    skillLogo: "git.svg",
     skillName: "Git",
   },
   {
-    skillLogo: "images/html.svg",
+    skillLogo: "html.svg",
     skillName: "HTML",
   },
   {
-    skillLogo: "images/css.svg",
+    skillLogo: "css.svg",
     skillName: "CSS",
   },
   {
-    skillLogo: "images/styled-components.svg",
+    skillLogo: "styled-components.svg",
     skillName: "Styled Components",
   },
   {
-    skillLogo: "images/tailwindcss.svg",
+    skillLogo: "tailwindcss.svg",
     skillName: "TailwindCSS",
   },
   {
-    skillLogo: "images/material.svg",
+    skillLogo: "material.svg",
     skillName: "MUI",
   },
   {
-    skillLogo: "images/getbootstrap-.svg",
+    skillLogo: "getbootstrap-.svg",
     skillName: "Bootstrap",
   },
   {
-    skillLogo: "images/mongodb.svg",
+    skillLogo: "mongodb.svg",
     skillName: "MongoDB",
   },
   {
-    skillLogo: "images/mysql.svg",
+    skillLogo: "mysql.svg",
     skillName: "MySql",
   },
   {
-    skillLogo: "images/supabase.svg",
+    skillLogo: "supabase.svg",
     skillName: "Supabase",
   },
   {
-    skillLogo: "images/postgresql.svg",
+    skillLogo: "postgresql.svg",
     skillName: "PostgreSQL",
   },
   {
-    skillLogo: "images/node-js.svg",
+    skillLogo: "node-js.svg",
     skillName: "Node Js",
   },
   {
-    skillLogo: "images/expressjs.svg",
+    skillLogo: "expressjs.svg",
     skillName: "Express Js",
   },
   {
-    skillLogo: "images/java.svg",
+    skillLogo: "java.svg",
     skillName: "Java",
   },
   {
-    skillLogo: "images/python.svg",
+    skillLogo: "python.svg",
     skillName: "Python",
   },
 ];

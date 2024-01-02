@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "aos/dist/aos.css";
 import Aos from "aos";
+
 function HomeImage() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   let isSmallOrMediumScreen = windowWidth > 1024;
@@ -21,16 +22,16 @@ function HomeImage() {
     <>
       {isSmallOrMediumScreen ? (
         <img
-          src="../src/data/images/hero-portrait.svg"
+          src="hero-portrait.svg"
           className="h-40 w-40 md:h-50 md:w-[8rem] lg:h-80 lg:w-[22rem]"
-          alt="Flowbite Logo"
+          alt="hero-potrait"
           data-aos="zoom-out"
         />
       ) : (
         <img
-          src="../src/data/images/hero-portrait.svg"
+          src="hero-portrait.svg"
           className="h-80 w-[22rem] absolute filter brightness-[.3]"
-          alt="Flowbite Logo"
+          alt="hero-potrait"
         />
       )}
     </>

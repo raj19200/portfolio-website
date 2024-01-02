@@ -6,7 +6,7 @@ function ContactText() {
   return (
     <div className="flex flex-col  w-full lg:w-2/5 space-y-7">
       <img
-        src="../src/data/images/mail-send.png"
+        src="mail-send.png"
         alt="Email"
         title="email_logo"
         className="h-20 w-20 border-none"
