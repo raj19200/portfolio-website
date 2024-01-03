@@ -10,7 +10,7 @@ import "../styles/GlobalStyle.css";
 import Footer from "../pages/Footer";
 function AppLayout() {
   return (
-    <div className="container">
+    <div className="container max-w-full mr-auto ml-auto ">
       <div className="dark-mode px-10 py-3">
         <NavBar />
         <Element default id="home">

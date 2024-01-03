@@ -10,7 +10,7 @@ function LinkTab({ tabName, tabTitle }) {
         smooth
         spy
         to={tabName}
-        className="block py-2 px-3 rounded md:bg-transparent  md:p-0 hover:text-websiteColor"
+        className="block py-2 px-3 rounded md:bg-transparent  md:p-0 hover:text-websiteColor text-base"
         aria-current="page"
       >
         {tabTitle}
