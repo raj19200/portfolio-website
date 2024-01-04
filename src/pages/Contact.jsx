@@ -15,7 +15,7 @@ function Contact() {
       >
         Get In Touch
       </h1>
-      <div className="pt-14 flex flex-col lg:flex-row item-center">
+      <div className="pt-14 flex flex-col lg:flex-row item-center justify-center">
         <ContactText />
         <ContactForm />
       </div>

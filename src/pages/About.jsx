@@ -15,7 +15,7 @@ function About() {
       >
         About Me
       </h1>
-      <div className="pt-14 flex items-center flex-col lg:flex-row justify-between ">
+      <div className="pt-14 flex items-center flex-col lg:flex-row ">
         <AboutDetails />
         <AboutImage />
       </div>

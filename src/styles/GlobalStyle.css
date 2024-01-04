@@ -1,3 +1,8 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #060f1d;
+}
 .dark-mode {
   background: #060f1d;
   color: #e0e0e0;
