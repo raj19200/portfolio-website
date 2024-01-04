@@ -29,7 +29,7 @@ function ContactForm() {
     <form
       ref={form}
       onSubmit={sendEmail}
-      className="flex flex-col w-full lg:w-3/5 pt-5 lg:pl-44"
+      className="flex flex-col justify-center  lg:justify-normal  w-full lg:w-3/5 pt-5 lg:pl-44"
     >
       <div className="input-group">
         <input className="input" required type="text" id="name" name="name" />

@@ -4,7 +4,7 @@ import SocialIcons from "./SocialIcons";
 
 function ContactText() {
   return (
-    <div className="flex flex-col  w-full lg:w-2/5 space-y-7">
+    <div className="flex flex-col justify-center lg:justify-normal w-full lg:w-2/5 space-y-7">
       <img
         src="mail-send.png"
         alt="Email"

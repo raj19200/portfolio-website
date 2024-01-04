@@ -8,7 +8,7 @@ function Contact() {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className="mt-10 lg:mt-36 pl-24 pr-24 lg:pl-32 lg:pr-32 ">
+    <div className="mt-10 lg:mt-36 md:pl-24 md:pr-24 lg:pl-32 lg:pr-32 ">
       <h1
         className=" text-websiteColor underline underline-offset-[16px] text-4xl	font-medium"
         data-aos="fade-up"

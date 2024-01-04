@@ -3,8 +3,9 @@
   width: 1000px;
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 5vh;
 }
 
 .projectContainer .card {
@@ -15,6 +16,21 @@
   width: 450px;
   height: 200px;
   transition: 0.4s;
+}
+
+/* .projectContainer .card .face {
+  width: 450px;
+  height: 200px;
+  transition: 0.4s;
+} */
+
+/* Media query for screens with a maximum width of 767px (typical for mobile devices) */
+@media only screen and (max-width: 767px) {
+  .projectContainer .card .face {
+    width: auto; /* This will remove the width property for mobile devices */
+    height: 200px;
+    transition: 0.4s;
+  }
 }
 
 .projectContainer .card .face.face1 {
