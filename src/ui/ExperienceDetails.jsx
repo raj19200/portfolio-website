@@ -8,7 +8,18 @@ function ExperienceDetails({ company }) {
             {company.companyName}
           </span>
         </div>
-        <div className="font-thin brightness-50 pb-5">{company.period}</div>
+        <div className="pb-5">
+          <span className="font-thin brightness-50">{company.period}</span>
+          <span className="ml-4 text-websiteColor font-bold">
+            {company.totalYearsOfExperience < 12
+              ? `${company.totalYearsOfExperience} months`
+              : `${Math.floor(company.totalYearsOfExperience / 12)} years${
+                  company.totalYearsOfExperience % 12 !== 0
+                    ? ` and ${company.totalYearsOfExperience % 12} months`
+                    : ""
+                }`}
+          </span>
+        </div>
 
         <div>{company.description}</div>
       </div>
