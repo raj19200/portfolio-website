@@ -24,7 +24,7 @@ export const projectData = [
     projectTitle: "WorldWise",
     projectDesc:
       "A world map that tracks your footsteps into every city you can think of. Never forget your wonderful experiences, and show your friends how you have wandered the world.",
-    githubLink: "",
-    liveSite: "",
+    githubLink: "https://github.com/raj19200/WorldWise",
+    liveSite: "https://worldwise23.netlify.app/",
   },
 ];
