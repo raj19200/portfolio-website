@@ -14,7 +14,7 @@
 
 .projectContainer .card .face {
   width: 450px;
-  height: 200px;
+  height: 250px;
   transition: 0.4s;
 }
 
@@ -28,7 +28,7 @@
 @media only screen and (max-width: 767px) {
   .projectContainer .card .face {
     width: auto; /* This will remove the width property for mobile devices */
-    height: 200px;
+    height: 250px;
     transition: 0.4s;
   }
 }
@@ -41,7 +41,7 @@
   align-content: center;
   align-items: center;
   z-index: 1;
-  transform: translateY(100px);
+  transform: translateY(125px);
   border-radius: 10px;
 }
 
@@ -82,7 +82,7 @@
   padding: 5px;
   box-sizing: border-box;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-  transform: translateY(-100px);
+  transform: translateY(-125px);
   border-radius: 10px;
 }
 
